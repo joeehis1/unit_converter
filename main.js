@@ -44,7 +44,7 @@ class UnitConverter {
         const meters = (this.value / 3.28084).toFixed(3)
         const templateString = `
           <h2>
-          Length(meter/feet)
+          Length(Meter/Feet)
           </h2>
           <p>
           <span>${this.value} meters = ${feet} feet</span>
