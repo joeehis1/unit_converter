@@ -1,0 +1,7 @@
+#ignore all sass files
+
+scss/
+
+#ignore json files
+
+*.json

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.container {
+  width: calc(100% - 51px);
+  max-width: 823px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: hsl(0deg, 0%, 100%);
+}
+
+p {
+  color: hsl(0deg, 0%, 100%);
+}
+
+h2 {
+  color: hsl(250deg, 100%, 88%);
+}
+
+.input-area {
+  background-color: hsl(252deg, 100%, 63%);
+}
+
+.form input {
+  border: 2px solid hsl(256deg, 100%, 79%);
+  background-color: transparent;
+  color: hsl(0deg, 0%, 100%);
+}
+.form .error {
+  color: red;
+}
+.form button {
+  background-color: hsl(0deg, 0%, 100%);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.output-area {
+  background-color: hsl(215deg, 28%, 17%);
+}
+.output-area .converted {
+  background-color: hsl(215deg, 30%, 22%);
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.form input {
+  font-size: 3.625rem;
+  font-weight: 800;
+}
+.form button {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.input-area {
+  padding: 35vh 0;
+  min-height: 100vh;
+}
+
+.form {
+  text-align: center;
+}
+.form input {
+  width: 20vw;
+  min-width: 120px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  border-radius: 0.5625rem;
+}
+.form .error {
+  margin-bottom: 0.875rem;
+}
+.form button {
+  padding: 0.5625rem 3.625rem;
+  border-radius: 0.5625rem;
+  text-align: center;
+}
+
+.output-area {
+  padding: 1.75rem 0;
+}
+.output-area .converted {
+  padding: 1.25rem 0;
+}
+.output-area .converted:not(:last-of-type) {
+  margin-bottom: 1.25rem;
+}
+.output-area span:first-of-type {
+  margin-right: 1.25rem;
+}
+.output-area span:first-of-type::after {
+  content: "|";
+  display: inline-block;
+  margin-left: 1.25rem;
+}
+
+/*# sourceMappingURL=index.css.map */
