@@ -19,9 +19,19 @@ p {
   margin-bottom: 0;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .container {
   width: calc(100% - 51px);
-  max-width: 823px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -95,8 +105,7 @@ p {
   text-align: center;
 }
 .form input {
-  width: 20vw;
-  min-width: 120px;
+  width: 10rem;
   display: block;
   margin: 0 auto;
   margin-bottom: 1.25rem;
@@ -115,13 +124,14 @@ p {
 .output-area {
   padding: 1.75rem 0;
 }
-.output-area span:first-of-type {
-  margin-right: 1.25rem;
+.output-area .converted {
+  padding: 1.25rem 0;
 }
-.output-area span:first-of-type::after {
-  content: "|";
-  display: inline-block;
-  margin-left: 1.25rem;
+.output-area .converted:not(:last-of-type) {
+  margin-bottom: 1.25rem;
+}
+.output-area span {
+  display: block;
 }
 
 /*# sourceMappingURL=index.css.map */
