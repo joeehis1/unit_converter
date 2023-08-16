@@ -26,40 +26,40 @@ p {
 }
 
 h1 {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 p {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 h2 {
-  color: hsl(250deg, 100%, 88%);
+  color: hsl(250, 100%, 88%);
 }
 
 .input-area {
-  background-color: hsl(252deg, 100%, 63%);
+  background-color: hsl(252, 100%, 63%);
 }
 
 .form input {
-  border: 2px solid hsl(256deg, 100%, 79%);
+  border: 2px solid hsl(256, 100%, 79%);
   background-color: transparent;
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 .form .error {
   color: red;
 }
 .form button {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   border: 2px solid transparent;
   cursor: pointer;
 }
 
 .output-area {
-  background-color: hsl(215deg, 28%, 17%);
+  background-color: hsl(215, 28%, 17%);
 }
 .output-area .converted {
-  background-color: hsl(215deg, 30%, 22%);
+  background-color: hsl(215, 30%, 22%);
 }
 
 h1 {
@@ -114,12 +114,6 @@ p {
 
 .output-area {
   padding: 1.75rem 0;
-}
-.output-area .converted {
-  padding: 1.25rem 0;
-}
-.output-area .converted:not(:last-of-type) {
-  margin-bottom: 1.25rem;
 }
 .output-area span:first-of-type {
   margin-right: 1.25rem;
